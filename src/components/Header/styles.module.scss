@@ -1,0 +1,25 @@
+.containerHeader {
+  height: 250px;
+  padding-left: 160px;
+  padding-right: 160px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+
+  background: #0b1923;
+}
+
+img {
+  height: 54px;
+  width: 54px;
+  margin-right: 12px;
+}
+
+.fontMyFinances {
+  margin-top: 5px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+
+  color: #ffffff;
+}

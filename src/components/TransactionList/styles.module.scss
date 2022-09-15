@@ -1,0 +1,47 @@
+.containerTransactionList {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.legendaDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: grid;
+  list-style: none;
+  margin-bottom: 30px;
+  gap: 8px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  color: #969cb2;
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+  text-align: left;
+}
+
+.inputBox {
+  border-radius: 5px;
+  padding: 16px;
+  border: none;
+  color: #969cb2;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.inputBox::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #969cb2;
+  opacity: 1; /* Firefox */
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
